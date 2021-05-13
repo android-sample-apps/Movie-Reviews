@@ -15,7 +15,7 @@ import com.nero.moviereview.R
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
-class NavActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
 
