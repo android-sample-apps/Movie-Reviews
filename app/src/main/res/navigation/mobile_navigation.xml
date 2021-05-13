@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_movie">
+
+    <fragment
+        android:id="@+id/nav_movie"
+        android:name="com.nero.moviereview.views.nav_ui.movie.MovieFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_movie">
+        <action
+            android:id="@+id/action_nav_movie_to_nav_popular"
+            app:destination="@id/nav_popular" />
+        <action
+            android:id="@+id/action_nav_movie_to_singleMovieDetailFragment"
+            app:destination="@id/singleMovieDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_popular"
+        android:name="com.nero.moviereview.views.nav_ui.popular.PopularFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_popular_movie">
+        <action
+            android:id="@+id/action_nav_popular_to_nav_movie"
+            app:destination="@id/nav_movie" />
+    </fragment>
+    <fragment
+        android:id="@+id/singleMovieDetailFragment"
+        android:name="com.nero.moviereview.views.SingleMovieDetailFragment"
+        android:label=""
+        tools:layout="@layout/fragment_single_movie_detail">
+        <action
+            android:id="@+id/action_singleMovieDetailFragment_to_nav_movie"
+            app:destination="@id/nav_movie" />
+    </fragment>
+
+
+</navigation>

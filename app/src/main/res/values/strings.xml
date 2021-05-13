@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Movie Review</string>
+    <string name="title_activity_nav">NavActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Movies Review</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Movies</string>
+    <string name="menu_gallery">Popular Movies</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="tom_clancy_s_without_remorse">Tom Clancy\'s Without Remorse</string>
+    <string name="apr_29_2021">Apr 29, 2021</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sample_desc">An elite Navy SEAL uncovers an international conspiracy while seeking justice for the murder of his pregnant wife.</string>
+    <string name="sample_date">2021/05/12</string>
+    <string name="sample_time">1 h 14 m</string>
+    <string name="name_of_movie">Name Of Movie</string>
+    <string name="_12">12</string>
+</resources>
