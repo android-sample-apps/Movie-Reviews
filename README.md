@@ -1,5 +1,6 @@
-## Movie-Reviews App
+<h1 align="center">MovieHunt</h1>
 
+Movie Reviews is a sample Android project using The Movie DB API based on MVVM architecture. It showcases the app development with well-designed architecture and up-to-date Android tech stacks.
 
 ## Features
 * Kotlin
