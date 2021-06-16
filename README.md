@@ -24,3 +24,7 @@ Movie Reviews is a sample Android project using The Movie DB API based on MVVM a
 ## API 
 
 * [The Movie db](https://www.themoviedb.org/documentation/api)
+
+##Preview
+
+[Movie Review](https://user-images.githubusercontent.com/38027375/122162327-04bce480-ce91-11eb-93e0-eb1edec46457.mp4)
